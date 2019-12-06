@@ -52,7 +52,7 @@ const employeesInfoRequest = (data) => {
       <p class="modal-text cap">${user.location.city}</p>
       <hr>
       <p class="modal-text">${user.phone}</p>
-      <p class="modal-text">${user.location.street} ${user.location.city} ${user.location.state}</p>
+      <p class="modal-text">${user.location.street.number} ${user.location.street.name} ${user.location.city} ${user.location.state}</p>
       <p class="modal-text">Birthday: ${user.dob.date}</p>
       </div>
   </div>
